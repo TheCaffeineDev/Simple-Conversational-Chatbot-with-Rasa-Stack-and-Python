@@ -14,10 +14,10 @@ Rasa comes up with 2 components —
 
 **Few Keywords** 
 
-- *Intent —* Intent is nothing but what the user is aiming for. For example — if the user says *“Reserve a table at Cliff House tonight”* the intent can be classified as to book the table.
+- **Intent —** Intent is nothing but what the user is aiming for. For example — if the user says *“Reserve a table at Cliff House tonight”* the intent can be classified as to book the table.
 - *Entity —* Entity is to extract the useful information from the user input. From the example above “*Reserve a table at Cliff House tonight*” the entities extracted would be place and time. Place — Cliff House and Time — tonight.
-- *Stories —* Stories define the sample interaction between the user and chatbot in terms of intent and action taken by the bot. Like in the example above bot got the intent of booking the table and entities like place and time but still, there is an entity missing — no of people and that would make the next action from the bot.
-- *Actions —* Actions are basically the operations performed by the bot either asking for some more details to get all the entities or integrating with some APIs or querying the database to get/save some information.
+- **Stories —** Stories define the sample interaction between the user and chatbot in terms of intent and action taken by the bot. Like in the example above bot got the intent of booking the table and entities like place and time but still, there is an entity missing — no of people and that would make the next action from the bot.
+- **Actions —** Actions are basically the operations performed by the bot either asking for some more details to get all the entities or integrating with some APIs or querying the database to get/save some information.
 
 ## Rasa Natural Language Understanding (NLU)
 
@@ -56,7 +56,7 @@ Once Conda is installed we should create the virtual environment and proceed wit
 ```bash
 conda install python=3.6
 conda create -n rasa python=3.6
-source activate rasa
+conda activate rasa
 pip install rasa-x --extra-index-url https://pypi.rasa.com/simple
 ```
 
@@ -113,7 +113,7 @@ A link will get open up in your browser:
 
 In the left side, you can try to chat with your bot and on the right side you can see, which intent and reply is getting responded.
 
-![](/home/thecaffeinedev/Desktop/Rasa/Images/3.png)
+![](Images/3.png)
 
 **Some facts about Rasa-x**
 
