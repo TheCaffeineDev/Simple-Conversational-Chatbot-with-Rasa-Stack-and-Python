@@ -118,3 +118,41 @@ In the left side, you can try to chat with your bot and on the right side you ca
 **Some facts about Rasa-x**
 
 When you run Rasa X locally, your training data and stories are read from the files in your project (e.g. `data/nlu.md`), and any changes you make in the UI are saved back to those files. Conversations and other data are stored in an SQLite database saved in a file called `rasa.db`.
+
+**I will talk about Rasa Custom Server later**
+
+#### Some commands to remember 
+
+## Commands
+Create new project in Rasa
+```bash
+rasa init
+```
+
+Start Rasa-X
+```bash
+rasa x
+```
+
+Start Rasa without Rasa-X GUI
+```bash
+rasa run
+```
+
+Re-train your rasa model
+```bash
+rasa train
+```
+
+Start Rasa Action Server
+```bash
+rasa run actions
+```
+
+## References
+
+1. https://rasa.com/
+2. https://github.com/RasaHQ/rasa
+3. https://www.analyticsvidhya.com/blog/2019/04/learn-build-chatbot-rasa-nlp-ipl/
+4. https://www.youtube.com/watch?v=-F6h43DRpcU
+5. https://hackernoon.com/building-a-chatbot-using-rasa-stack-intro-and-tips-c6d1057d8536
